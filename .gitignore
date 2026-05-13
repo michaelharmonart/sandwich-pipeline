@@ -16,12 +16,33 @@
 \#*\#
 *_bak*.hdanc
 
-# Ignore large binary files
+# Renders / image sequences
+*.exr
+*.dpx
+*.mov
+*.mp4
+*.avi
+*.mkv
+
+# Houdini / DCC cache-ish output
+*.sim
+*.bgeo
 *.bgeo.sc
-*.tex
+*.vdb
+*.abc
 *.usd
 *.usdc
-*.vdb
+*.usda
+
+# Editor/backups
+*~
+*.tmp
+*.bak
+*.swp
+*.sh#
+
+# Generated indexes
+*.idx
 
 # Ignore keys
 env.py
