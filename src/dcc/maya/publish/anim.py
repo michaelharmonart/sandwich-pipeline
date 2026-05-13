@@ -94,7 +94,7 @@ class AnimPublisher(Publisher):
                 timeline.preroll,
                 timeline.end,
             ),
-            "frameStride": 1.0,
+            "frameStride": 1.0 / self._shot.substeps,
             "stripNamespaces": False,
         }
 
